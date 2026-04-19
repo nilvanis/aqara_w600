@@ -55,6 +55,7 @@ Last step will be a PR to the herdsman-converters repo for native Z2M support.
 | Temperature source | `select` | Select temperature reading source. Can be `internal` or `external`. If you want to set `external`, **External Temperature Sensor IEEE Address** and **Temperature** of the external sensor reading must be set upfront. |
 | Vacation temperature | `number` | Temperature setpoint for `vacation` preset. |
 | Weekly schedule | `switch` | Enable or disable functionality of the weekly schedule on TRV. |
+| Wind-down temperature | `number` | Temperature setpoint for `wind_down` preset. |
 | Window detection | `switch` | Enable or disable open window detection functionality on teh TRV. |
 | Window detection mode | `select` | Choose betwen `temperature_difference` and `external_sensor` to detect opened window. If you want to select `external_sensor` you must first set the **External Window Sensor IEEE Address**. |
 | Battery | `sensor` | Percentage battery indicator. |
