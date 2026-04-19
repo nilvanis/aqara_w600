@@ -42,7 +42,7 @@ Last step will be a PR to the herdsman-converters repo for native Z2M support.
 | External Temperature Sensor IEEE Address | `text` | Type here a zigbee IEEE address if you want to use external temp sensor readings as temp source on the TRV. Does not have to be an address of a real device, but must me a valid address. |
 | External Window Sensor IEEE Address | `text` | Type here a zigbee IEEE address if you want to use external window opening sensor readings. Does not have to be an address of a real device, but must me a valid address. |
 | External Window Sensor State | `select` | If external window sensor readings are used, updating this entity will send update to the TRV bout window status (`open`/`closed`). Will send periodic update to the TRV even if entity state is not changed. |
-| <Day> schedule | `text` | Trigger-based schedule for a given day. Format: `hh:mm/preset`, for example: `08:00/home`. Separate multiple triggers by comma, e.g. `00:00/sleep, 08:00/away, 16:00/home, 23:00/sleep`. |
+| `Day` schedule | `text` | Trigger-based schedule for a given day. Format: `hh:mm/preset`, for example: `08:00/home`. Separate multiple triggers by comma, e.g. `00:00/sleep, 08:00/away, 16:00/home, 23:00/sleep`. |
 | Home temperature | `number` |  Temperature setpoint for `home` preset. |
 | Identify | `button` | Turn on display on the TRV for a moment to identify the device. |
 | Manual override | `switch` | If TRV mode is set to `auto` and you change temperature setpoint, this entity will change to `ON`. Override will automatically expire after time defined in **Manual Override Duration** entity. |
