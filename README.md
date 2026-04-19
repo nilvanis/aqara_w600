@@ -66,4 +66,4 @@ Last step will be a PR to the herdsman-converters repo for native Z2M support.
 | Window | `sensor` | Open Window detection status providedc by the TRV. |
 
 ## Identified problems
-1. Template erros when onboarding or removing a TRV.
+1. Template erros in Home Assistant error log when onboarding or removing a TRV.
