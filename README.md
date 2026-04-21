@@ -10,6 +10,7 @@ Last step will be a PR to the herdsman-converters repo for native Z2M support.
 | Feature | Modification against external converter | Link |
 | --- | --- | --- |
 | External Temperature Support | Dropped External Sensor IEEE Address setting - I find it useless. Implementation uses a fixed arbitrary address.| https://github.com/Koenkk/zigbee-herdsman-converters/pull/11987 |
+| Thermostat Update | Do not enable heat when preset is changed while OFF. | https://github.com/Koenkk/zigbee-herdsman-converters/pull/11991 |
 
 ## Implemented features
 
