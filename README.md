@@ -10,7 +10,8 @@ Last step will be a PR to the herdsman-converters repo for native Z2M support.
 | Feature | Modification against external converter | Link |
 | --- | --- | --- |
 | External Temperature Support | Dropped External Sensor IEEE Address setting - I find it useless. Implementation uses a fixed arbitrary address.| https://github.com/Koenkk/zigbee-herdsman-converters/pull/11987 |
-| Thermostat Update | Behavior change: changing setpoint or preset doesn't change mode. Hidden `Manual Override` and `Weekly Schedule` switches (mechanics embedded in thermostat). Exposed `Manual Override` binary sensor. | https://github.com/Koenkk/zigbee-herdsman-converters/pull/11991 |
+| Thermostat Refactor | Behavior change: changing setpoint or preset doesn't change mode. Hidden `Manual Override` and `Weekly Schedule` switches (mechanics embedded in thermostat). Exposed `Manual Override` binary sensor. | https://github.com/Koenkk/zigbee-herdsman-converters/pull/11991 |
+| Schedule Support | - | https://github.com/Koenkk/zigbee-herdsman-converters/pull/12022 |
 
 ## Implemented features
 
